@@ -88,12 +88,15 @@
     └── data/            # 预设的歌曲数据库
 ```
 ## 5. 📷 实现预览
-1. 用户侧（QQ）
+1. 用户侧（QQ群内发送成绩图片）
 <img width="389" height="615" alt="image" src="https://github.com/user-attachments/assets/f63c8ccb-2500-433f-bc03-dffda97f0651" />
 
 2. Python后端（YOLO识别切割、发送LM Studio API进行ocr）
 <img width="1107" height="253" alt="image" src="https://github.com/user-attachments/assets/f542387e-af20-4188-b6f8-1f91cd829f68" />
 
-3. Go插件侧（接收ocr结果并进行歌名/别名匹配、成绩存档）
+3. LM Studio侧（ocr并返回分数和歌名）
+<img width="718" height="438" alt="image" src="https://github.com/user-attachments/assets/e7ea0997-44c4-430e-83c3-833b3ec0f1e4" />
+
+4. Go插件侧（接收ocr结果并进行歌名/别名匹配、成绩存档）
 <img width="788" height="226" alt="image" src="https://github.com/user-attachments/assets/f80f2dd9-6120-4787-a026-c0a1f9178fb2" />
 
